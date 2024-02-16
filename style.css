@@ -1,0 +1,156 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+
+}
+
+header {
+  margin: 44px 0 30px 76px;
+}
+
+
+.link-header {
+  margin-right: 23px;
+  color: #989d9c;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+.b-login {
+  width: 130px;
+  height: 41px;
+  background: #665ae1;
+  border: none;
+  border-radius: 20.5px;
+  color: white;
+  line-height: 29px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.image-logo {
+  margin-left: 125px;
+  width: 568px;
+  height: 500px;
+  display: inline-block;
+}
+section {
+  display: inline-block;
+  margin-left: 86px;
+}
+
+h1 {
+  font-weight: 800px;
+  font-size: 80px;
+  line-height: 122px;
+  color: #515151;
+  margin-top: 100px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 71px;
+  color: #515151;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #848484;
+  width: 512px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.b2 {
+  color: #111111;
+  background-color: #adff00;
+  border: none;
+  width: 239px;
+  height: 64px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+
+  .b-login:hover{
+    opacity: 0.2;
+  
+  }
+  .b-login:active{
+    opacity: 0.8;
+  }
+  .b2:hover{
+    opacity: 0.4;
+    
+  }
+  .b2:active{
+    opacity: 0.7;
+  }
+  
+
+@media screen and (max-width:700px) {
+   .link-header{ 
+    display: none;
+   }
+    
+ .image-logo{
+
+  width:350px;
+  height: 317px;
+  margin: 30px;
+
+ }
+
+ h1{
+  width: 260px;
+  height: 50px;
+  font-size: 50px;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+  
+ }
+ h2{
+  font-family: Montserrat;
+font-size: 30px;
+font-weight: 500;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+
+ }
+ p{
+  display: none;
+ }
+ .b-login{
+  
+  position: absolute;
+  right: 20px;
+  margin-top: 5px;
+
+ }
+
+
+
+
+
+  
+}
